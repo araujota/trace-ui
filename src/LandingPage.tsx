@@ -29,6 +29,9 @@ function LandingPage() {
 
     return (
         <div className='contactFormContainer'>
+            <div className='header'>
+                <img className='logoImage' src={require('./assets/tracelogotransparent.png')}></img>
+            </div>
             <div className='contactFormColumn'>
                 <p style={{marginBottom: '20px'}}>
                     Readily accessible news just isn't enough to keep Informed Citizenship alive. The articles you turn to for truth are beset with bias and bereft of context.

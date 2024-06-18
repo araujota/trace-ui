@@ -52,14 +52,14 @@ function App() {
 
   return (
     <div className="allContainer">
-      <div className='header'>
+      {/* <div className='header'>
         <img className='logoImage' src={require('./assets/tracelogotransparent.png')}></img>
-        {/* <input className='headerSearchBox' placeholder='https://some-news-article' disabled={showing != 'home'}/>
+        <input className='headerSearchBox' placeholder='https://some-news-article' disabled={showing != 'home'}/>
         <text className={setClassHeaderOptions('home')} onClick={() => setShowing('home')}>Home</text>
         <text className={setClassHeaderOptions('about')} onClick={() => setShowing('about')}>About</text>
         <text className={setClassHeaderOptions('contact')} onClick={() => setShowing('contact')}>Contact</text>
-        <text className={setClassHeaderOptions('signin')} onClick={() => setShowing('signin')}>Waitlist</text> */}
-      </div>
+        <text className={setClassHeaderOptions('signin')} onClick={() => setShowing('signin')}>Waitlist</text>
+      </div> */}
       
         {showing == 'home' ? (
           <div className='traceCanvas'>
